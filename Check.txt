@@ -1,0 +1,31 @@
+The drawing board
+
+Logo
+	mini modern would be "dTb"
+		would also make a good water mark
+
+watermark encoder and reader
+	make watermarks equal to qr codes
+
+Javascript Bitcoin miner 
+	https://coinhive.com/
+
+Image Gallery
+	downscalled images on a carosel
+
+Image viewer
+	seperate tab/window for veiwing very high res images
+
+Search features
+	File name
+	author name
+	date published to tdb
+	tags
+		tag system set up by users and mods
+		system tags include
+			complete/incomplete drawings
+			quality/resolution
+			
+
+Sort features
+	date published a/d
