@@ -1,5 +1,5 @@
 
-/*Global*/
+/*-----Global-----*/
 *{
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body{
 
 
 
-/*SideNav*/
+/*-----SideNav------*/
 .SideNav{
   height: 100%;
   width: 75px;
@@ -77,42 +77,9 @@ body{
  }
 
 
-/* Calculator */
-.CalFrame{
-  background: #ccc;
-  width: 500px;
-  margin: 20px auto;
-  height: 500px;
-  border-radius: 1em;
-  display: inline-block;
-}
 
-.output{
-  padding-top: 20px;
-  margin: 20px;
-}
+/*---- Image Carousel  ----*/
 
-.line1{
-  width: 50px;
-  height: 20px;
-}
-
-.numberpad{
-  background: red;
-  display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  border-radius: 1em;
-  width: 300px;
-  margin: 15px;
-}
-
-.number{
-  width: 50px;
-  height: 50px;
-  margin: 5px auto;
- 
-}
-
-.functions{
-  display: grid;
+.fffff{
+  height: 400px;
 }

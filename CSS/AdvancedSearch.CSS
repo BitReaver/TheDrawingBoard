@@ -20,7 +20,6 @@ body{
 .filler{
 	color: white;
 	text-align: center;
-	font-size: 200px;
 	height: 200px;
 }
 
@@ -39,10 +38,6 @@ body{
 	border-right: solid 3px #436f6f;
 }
 
-.SideNav:focus,
-.SideNav:Hover{
-	
-}
 
 .SideNav a{
 	color: white;
@@ -83,19 +78,6 @@ body{
  }
 
 
-.SearchBanner{
-	padding-top: 40px;
-	color: #fff;
-	height: 200px;
-	text-align: center;
-	font-size: 40px;
-	background-color: #353535;
-	background: url(../Images/BG1.jpg) no-repeat; 
-	background-position: 0;
-	border-bottom: 3px solid #353535;
-	box-shadow: inset 0 0 0 500px rgba(0,0,0,.6);	
-}
-
 /*Search*/
 
 .wrapper{
@@ -106,19 +88,28 @@ body{
 	grid-template-columns: 15% 35% 50%;
 }
 
-.wrapper > div{
-	padding-top: 1em;
+.SearchBanner{
+	padding-top: 40px;
+	color: #fff;
+	height: 200px;
+	text-align: center;
+	font-size: 40px;
+	background-color: #353535;
+	background: url(../Images/BG1.jpg) no-repeat; 
+	background-position: 0;
+	background-size: cover;
+	border-bottom: 3px solid #353535;
+	box-shadow: inset 0 0 0 500px rgba(0,0,0,.6);	
 }
 
-.wrapper > div:nth-child(odd){
-	background: #333;
+.wrapper > div{
+	padding-top: 1em;
 }
 
 .Lables{
 	text-align: right;
 	color: #fff;
 	line-height: 33px;
-	
 }
 
 .Criteria{
@@ -192,9 +183,12 @@ footer{
 	color: #ccc;
 	height: 100px;
 	text-align: center;
-	display: inline-flex;
+	display: flex;
 	border-top: solid 2px #436f6f;
-	}
+	position: absolute;
+	bottom: -100%;
+	right: 0;
+}
 
 footer .block1{
 	padding-top: 30px;
